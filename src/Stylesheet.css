@@ -1,0 +1,22 @@
+/*navbar*/
+.nav-bar{
+    
+    list-style-type: none;
+    
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:grey;
+    border: dotted red;
+    border-bottom: solid blue;
+    border-width: 1px;
+}
+
+/*This is the  region footer*/
+.footer-box{
+    display: flex;
+    border: dotted red;
+  }
+  
