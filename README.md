@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## This webpage is currently under development.
+
+## Using functionality
+
+this application uses the mock payment service Saas that I have created (Listed: )
+In this app you will browse through the application, If you want to make a purchase, choose one of the following credentials below, in them you will request to know how many funds you have and if you can make the purchase.
+
+Choosing credentials that are not listed will result in an invalid credentials error.
+
 ## Available Scripts
 
 In the project directory, you can run:

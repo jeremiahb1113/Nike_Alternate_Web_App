@@ -1,6 +1,6 @@
 function PromoImageBanner(){
     return(
-        <div>
+        <div className="promo-image">
             Promo Image Banner
         </div>
     )

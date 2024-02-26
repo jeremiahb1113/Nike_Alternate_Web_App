@@ -1,15 +1,15 @@
 function Banner(){
 
-    return(<div>
+    return(<div className="banner">
             <ul>
-            <li>Jordan Logo</li>
-            <li>Second Logo</li>
+            <li  className="left">Jordan Logo</li>
+            <li  className="left">Second Logo</li>
             </ul>
             <ul>
-            <li>Find a Store</li>
-            <li>Help</li>
-            <li>Join Us</li>
-            <li>Sign In</li>
+            <li className="right">Find a Store</li>
+            <li className="right">Help</li>
+            <li className="right">Join Us</li>
+            <li className="right">Sign In</li>
             </ul>
             </div>
     )

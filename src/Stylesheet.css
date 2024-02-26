@@ -2,7 +2,6 @@
 .nav-bar{
     
     list-style-type: none;
-    
     margin: 0;
     position: fixed;
     width: 100%;
@@ -12,6 +11,30 @@
     border: dotted red;
     border-bottom: solid blue;
     border-width: 1px;
+   
+}
+.nav-bar li{
+    padding-left: 3%;
+}
+
+.banner{
+    width:100%;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+.left{
+    color: red;
+    float: left;
+    display: flex;
+    border: dotted green;
+    
+}
+.right{
+    display: flex;
+    float: right;
+    color: blue;
+    border: dotted green;
 }
 
 /*This is the  region footer*/
@@ -20,3 +43,25 @@
     border: dotted red;
   }
   
+/*Promo banner slide*/
+.promo-slide{
+    display: flex;
+    color: green;
+    justify-content: center;
+    padding: 3%;
+}  
+
+.promo-image{
+    display: flex;
+    border: dotted yellow;
+}
+
+/* default page description under promo*/
+.page-description{
+    border: dotted blue;
+}
+
+/* Slide for Features, Iconics, Trending and  items in store*/
+.image-slide{
+    border: solid orange;
+}

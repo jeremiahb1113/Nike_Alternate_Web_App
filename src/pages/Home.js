@@ -1,8 +1,8 @@
 function Home(){
 
     return(
-        <div>
-            <p>Hello welcome to the home page</p>
+        <div className="page-description">
+            <p> Promo description, Welcome to my Nike based webpage!</p>
         </div>
     )
 
