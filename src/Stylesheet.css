@@ -1,3 +1,14 @@
+
+/*Background images*/
+.home{
+    min-height: 100vh;
+    background-image: url("../public/images/background/nike_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 /*navbar*/
 .nav-bar{
     
@@ -5,16 +16,40 @@
     margin: 0;
     position: fixed;
     width: 100%;
+    height:50px;
     display: flex;
-    justify-content: center;
-    color:grey;
-    border: dotted red;
-    border-bottom: solid blue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
     border-width: 1px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    
    
 }
-.nav-bar li{
-    padding-left: 3%;
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+    
+}
+li a:hover{
+    background-color: #f0f0f0;
+}
+
+/*dropdown menu homepage*/
+.drop-down{
+    width: 100px;
+    height: 0px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+.drop-down li a{
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
 }
 
 .banner{

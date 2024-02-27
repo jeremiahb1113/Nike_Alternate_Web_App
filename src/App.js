@@ -17,7 +17,7 @@ import SecondaryFooter from './components/SecondaryFooter';
 function App() {
   return (
     
-    <div>
+    <div className="home">
       <Banner/>
       <Nav/>
       <PromoBanner/>

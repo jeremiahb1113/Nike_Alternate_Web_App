@@ -4,16 +4,16 @@ function Nav(){
         <div className="flex-container">
 
             <ul className="nav-bar">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Me</li>
-                <li>Sign Up</li>
-                <li>Sign in/ sign out</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Sign in/Sign out</a></li>
                 <li>Shoes
                 <ul className="drop-down">
-                    <li>Kids</li>
-                    <li>Mens</li>
-                    <li>Womens</li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Mens</a></li>
+                    <li><a href="#">Womens</a></li>
                 </ul>
                 </li>
 
